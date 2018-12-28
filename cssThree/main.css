@@ -29,7 +29,7 @@ Show how changing between em, % and pixels changes things
   position: absolute;
   width: 200px;
   height: 100px;
-  z-index: 4; /* Element with highest z index goes on top */
+  z-index: 1; /* Element with highest z index goes on top */
 }
 
 #bottom-right-tl-parent {

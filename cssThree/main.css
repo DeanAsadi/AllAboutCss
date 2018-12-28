@@ -14,6 +14,7 @@ Show how changing between em, % and pixels changes things
 #centered {
   background: #89cff0;
   width: 50%;
+  /* "auto" will have equal amount on the right and left */
   margin: auto;
 }
 
@@ -22,7 +23,7 @@ Show how changing between em, % and pixels changes things
   text-align: center;
 }
 
-/* Absolute Positioning : Positioning Based on the Document */
+/* Absolute Positioning : Positioning Based on the Parent position */
 #top-left-pos {
   background: #89cff0;
   border: 0.1em solid black;
@@ -86,7 +87,7 @@ Show how changing between em, % and pixels changes things
 }
 
 /* Floating Content : Float an element to the left or right of the parent */
-
+/* Image with the src[] */
 img[src="LittleBrain.png"] {
   float: left;
   padding: 10px;
